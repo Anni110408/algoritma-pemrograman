@@ -1,0 +1,18 @@
+Anni Lisminata
+ALGORITMA Total_Pembayaran
+DEKLARASI
+    harga_satuan      : real
+    jumlah_barang     : integer
+    biaya_layanan     : real
+    subtotal          : real
+    total             : real
+
+DESKRIPSI
+    read(harga_satuan)
+    read(jumlah_barang)
+    read(biaya_layanan)
+
+    subtotal <-harga satuan * jumlah barang   
+    total    <- subtotal + biaya layanan
+    write(subtotal)
+    write(total pembayaran)

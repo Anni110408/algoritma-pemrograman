@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Halaman-1" id="6JSzBHyxF84VUuHwb7y8">
+    <mxGraphModel dx="1229" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R57m2HkWSy7wgt5gXa20-8" edge="1" parent="1" source="R57m2HkWSy7wgt5gXa20-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="R57m2HkWSy7wgt5gXa20-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="mulai" vertex="1">
+          <mxGeometry height="70" width="120" x="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-9" edge="1" parent="1" source="R57m2HkWSy7wgt5gXa20-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="R57m2HkWSy7wgt5gXa20-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="input harga_satuan, jumlah_satuan, biaya_layanan" vertex="1">
+          <mxGeometry height="60" width="180" x="290" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-10" edge="1" parent="1" source="R57m2HkWSy7wgt5gXa20-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="R57m2HkWSy7wgt5gXa20-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="subtotal = harga_satuan * jumlah_barang" vertex="1">
+          <mxGeometry height="60" width="280" x="240" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-11" edge="1" parent="1" source="R57m2HkWSy7wgt5gXa20-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="R57m2HkWSy7wgt5gXa20-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="total = subtotal + biaya_layanan" vertex="1">
+          <mxGeometry height="60" width="280" x="240" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-18" edge="1" parent="1" source="R57m2HkWSy7wgt5gXa20-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="R57m2HkWSy7wgt5gXa20-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="subtotal, total" vertex="1">
+          <mxGeometry height="60" width="192.5" x="283.75" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="R57m2HkWSy7wgt5gXa20-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;selesai&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
